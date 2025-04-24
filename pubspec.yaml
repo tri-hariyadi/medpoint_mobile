@@ -37,6 +37,10 @@ dependencies:
   cupertino_icons: ^1.0.8
   supabase_flutter: ^2.8.4
   flutter_dotenv: ^5.2.1
+  get_it: ^8.0.3
+  dartz: ^0.10.1
+  flutter_bloc: ^9.1.0
+  iconsax: ^0.0.8
 
 dev_dependencies:
   flutter_test:
@@ -64,7 +68,7 @@ flutter:
   assets:
     - .env
     - assets/logos/
-    - assets/icons/
+#    - assets/icons/
     - assets/images/
 
   # An image asset can refer to one or more resolution-specific "variants", see
@@ -81,6 +85,8 @@ flutter:
   fonts:
     - family: Poppins
       fonts:
+        - asset: assets/fonts/Poppins-Italic.ttf
+          style: italic
         - asset: assets/fonts/Poppins-Light.ttf
           weight: 300
         - asset: assets/fonts/Poppins-Regular.ttf
