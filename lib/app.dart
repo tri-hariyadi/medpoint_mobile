@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:medpoint_mobile/features/authentication/screens/login.dart';
 import 'package:medpoint_mobile/presentation/pages/doctor/doctor_list_page.dart';
 
 class App extends StatelessWidget {
